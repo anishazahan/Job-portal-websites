@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import logo from '../../assets/img/logo.png'
 
 
 
@@ -10,12 +11,12 @@ const Menubar = () => {
     <>
    
 
-          <nav className="w-full bg-[#1D1D1D] shadow">
+          <nav className="w-full bg-[#F7F7F7] drop-shadow-lg">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between md:py-2 md:block">
                         <Link to='/'>
-                      Logo
+                      <img className='w-28 h-[40%]' src={logo} alt="" />
                         </Link>
                         <div className="md:hidden">
                             <button
@@ -62,22 +63,22 @@ const Menubar = () => {
                         }`}
                     >
                         <ul className="items-center w-full  justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                            <li className="text-white hover:text-emerald-200 font-medium">
+                            <li className="text-black hover:text-emerald-200 font-medium">
                                 <Link to="/">Home</Link>
                             </li>
-                            <li className="text-white hover:text-emerald-200 font-medium">
+                            <li className="text-black hover:text-emerald-200 font-medium">
                                 <Link to="about">About</Link>
                             </li>
-                            <li className="text-white hover:text-emerald-200 font-medium">
+                            <li className="text-black hover:text-emerald-200 font-medium">
                                 <Link to="service">Services</Link>
                             </li>
-                            <li className="text-white hover:text-emerald-200 font-medium">
+                            <li className="text-black hover:text-emerald-200 font-medium">
                                 <Link to="portfolio">Portfolio</Link>
                             </li>
-                            <li className="text-white hover:text-emerald-200 font-medium">
+                            <li className="text-black hover:text-emerald-200 font-medium">
                                 <Link to="blog">Blogs</Link>
                             </li>
-                            <li className="text-white hover:text-emerald-200 font-medium">
+                            <li className="text-black hover:text-emerald-200 font-medium">
                                 <Link to="contact">Contact</Link>
                             </li>
                         </ul>
