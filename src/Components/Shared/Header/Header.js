@@ -26,7 +26,7 @@ const Menubar = () => {
                                 {navbar ? (
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
-                                        className="w-6 h-6 text-white"
+                                        className="w-6 h-6 text-black"
                                         viewBox="0 0 20 20"
                                         fill="currentColor"
                                     >
@@ -39,7 +39,7 @@ const Menubar = () => {
                                 ) : (
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
-                                        className="w-6 h-6 text-white"
+                                        className="w-6 h-6 text-black"
                                         fill="none"
                                         viewBox="0 0 24 24"
                                         stroke="currentColor"
@@ -72,11 +72,11 @@ const Menubar = () => {
                             <li className="text-gray-700 text-[17px]">
                                 <Link to="service">Candidates</Link>
                             </li>
-                            <li className="flex flex-col md:flex-row space-x-3 ">
-                                <Link className='text-white rounded bg-green-700 py-[8px] px-5 text-[17px]' to="service">
+                            <li className="flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-3 ">
+                                <Link className='text-white text-center md:text-left rounded bg-green-700 py-[8px] px-5 text-[17px]' to="service">
                                     SignUp
                                 </Link>
-                                <Link className='text-white rounded bg-blue-700 py-[8px] px-5 text-[17px]' to="service">
+                                <Link className='text-white text-center md:text-left rounded bg-blue-700 py-[8px] px-5 text-[17px]' to="service">
                                     SignIn
                                 </Link>
                             </li>
