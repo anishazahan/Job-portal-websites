@@ -20,7 +20,7 @@ const Hero = () => {
             </div>
             <form className='bg-gray-200 py-8 px-5 mx-16'>
 
-            <div class="flex justify-center space-x-5">
+            <div class="flex flex-col lg:flex-row justify-center space-y-4 lg:space-y-0 lg:space-x-5">
 
             <div class="relative inline-block w-full text-gray-700 rounded border border-gray-400">
             <button className='absolute flex items-center p-3 mr-3 bg-gray-200'><FaBriefcase></FaBriefcase></button>
