@@ -63,24 +63,25 @@ const Menubar = () => {
                         }`}
                     >
                         <ul className="items-center w-full  justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                            <li className="text-black hover:text-emerald-200 font-medium">
+                            <li className="text-gray-700 text-[17px]">
                                 <Link to="/">Home</Link>
                             </li>
-                            <li className="text-black hover:text-emerald-200 font-medium">
-                                <Link to="about">About</Link>
+                            <li className="text-gray-700 text-[17px]">
+                                <Link to="about">Browse Jobs</Link>
                             </li>
-                            <li className="text-black hover:text-emerald-200 font-medium">
-                                <Link to="service">Services</Link>
+                            <li className="text-gray-700 text-[17px]">
+                                <Link to="service">Candidates</Link>
                             </li>
-                            <li className="text-black hover:text-emerald-200 font-medium">
-                                <Link to="portfolio">Portfolio</Link>
+                            <li className="flex flex-col md:flex-row space-x-3 ">
+                                <Link className='text-white rounded bg-green-700 py-[8px] px-5 text-[17px]' to="service">
+                                    SignUp
+                                </Link>
+                                <Link className='text-white rounded bg-blue-700 py-[8px] px-5 text-[17px]' to="service">
+                                    SignIn
+                                </Link>
                             </li>
-                            <li className="text-black hover:text-emerald-200 font-medium">
-                                <Link to="blog">Blogs</Link>
-                            </li>
-                            <li className="text-black hover:text-emerald-200 font-medium">
-                                <Link to="contact">Contact</Link>
-                            </li>
+                          
+                           
                         </ul>
 
                        
