@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaBriefcase } from "react-icons/fa";
+import CateogoryCard from './CateogoryCard';
 
 const Hero = () => {
   return (
@@ -14,6 +15,9 @@ const Hero = () => {
         </div>
 
         <div className="">
+            <div className="text-center">
+            <button className='text-center text-white text-[17px] rounded-t-md px-5 py-2 bg-blue-600 '>Find a Job</button>
+            </div>
             <form className='bg-gray-200 py-8 px-5 mx-16'>
 
             <div class="flex justify-center space-x-5">
@@ -59,6 +63,8 @@ const Hero = () => {
 
 
             </form>
+
+            <CateogoryCard></CateogoryCard>
         </div>
     </div>
 
