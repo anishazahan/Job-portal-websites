@@ -37,7 +37,7 @@ const JobCateogory = () => {
 ]
 
   return (
-    <div className='bg-green-50 py-14'>
+    <div className='bg-green-50 pt-14 pb-28'>
 
         <h3 className='text-center'>JOB CATEGORIES</h3>
         <h2 className='text-center text-3xl text-black pb-10 font-medium'>Top Categories</h2>

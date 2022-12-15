@@ -1,4 +1,5 @@
 import React from 'react'
+import CountDown from './CountDown'
 import Hero from './Hero'
 import JobCateogory from './JobCateogory'
 
@@ -7,6 +8,7 @@ const Home = () => {
     <>
         <Hero></Hero>
         <JobCateogory></JobCateogory>
+        <CountDown></CountDown>
 
     </>
   )
