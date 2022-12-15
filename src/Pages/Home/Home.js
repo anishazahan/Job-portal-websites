@@ -2,6 +2,7 @@ import React from 'react'
 import CountDown from './CountDown'
 import Hero from './Hero'
 import JobCateogory from './JobCateogory'
+import Subscribe from './Subscribe'
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
         <Hero></Hero>
         <JobCateogory></JobCateogory>
         <CountDown></CountDown>
+        <Subscribe></Subscribe>
 
     </>
   )
