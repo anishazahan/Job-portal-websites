@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../../Components/Shared/Header/Footer'
 import CountDown from './CountDown'
 import Hero from './Hero'
 import JobCateogory from './JobCateogory'
@@ -11,6 +12,7 @@ const Home = () => {
         <JobCateogory></JobCateogory>
         <CountDown></CountDown>
         <Subscribe></Subscribe>
+        <Footer></Footer>
 
     </>
   )
