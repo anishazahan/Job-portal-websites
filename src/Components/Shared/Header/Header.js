@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, Navigate, useNavigate } from 'react-router-dom'
 import logo from '../../../assets/img/logo.png'
 
 
 
 const Menubar = () => {
+    const navigate = useNavigate();
     const [nav, setNav] = useState(false);
     const [navbar, setNavbar] = useState(false);
   return (
@@ -73,7 +74,7 @@ const Menubar = () => {
                                 <Link to="service">Candidates</Link>
                             </li>
                             <li className="flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-3 ">
-                                <Link to='signUp' className='text-white text-center md:text-left rounded bg-green-700 py-[8px] px-5 text-[17px]'>
+                                <Link to='signUp' onClick={()=>navigate(`/SignUp`)} className='text-white text-center md:text-left rounded bg-green-700 py-[8px] px-5 text-[17px]'>
                                     SignUp
                                 </Link>
                                 <Link to='signIn' className='text-white text-center md:text-left rounded bg-blue-700 py-[8px] px-5 text-[17px]'>
