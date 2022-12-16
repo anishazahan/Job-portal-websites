@@ -73,10 +73,10 @@ const Menubar = () => {
                                 <Link to="service">Candidates</Link>
                             </li>
                             <li className="flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-3 ">
-                                <Link className='text-white text-center md:text-left rounded bg-green-700 py-[8px] px-5 text-[17px]' to="service">
+                                <Link to='signUp' className='text-white text-center md:text-left rounded bg-green-700 py-[8px] px-5 text-[17px]'>
                                     SignUp
                                 </Link>
-                                <Link className='text-white text-center md:text-left rounded bg-blue-700 py-[8px] px-5 text-[17px]' to="service">
+                                <Link to='signIn' className='text-white text-center md:text-left rounded bg-blue-700 py-[8px] px-5 text-[17px]'>
                                     SignIn
                                 </Link>
                             </li>
